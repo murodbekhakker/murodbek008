@@ -169,7 +169,7 @@ nav {
   margin-top: 33px;
 }
 .section__box {
-  margin-top: 200px;
+  margin-top: 240px;
   max-width: 1170px;
   height: 323px;
   border-radius: 30px;
@@ -539,6 +539,12 @@ nav {
     flex-direction: column;
     align-items: center;
   }
+  .aside_text-sevices {
+    padding-top: 400px;
+  }
+  .section__box {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 990px) {
   .footer-pages1 {
@@ -612,7 +618,12 @@ nav {
   .section__box {
     height: 700px;
   }
+
+  .aside_text-sevices {
+    padding-top: 10opx;
+  }
   .section__img-black {
+    z-index: 1;
     width: 100%;
   }
   .card-number {
@@ -637,6 +648,9 @@ nav {
 @media (max-width: 520px) {
   .cards {
     padding-top: 90px;
+  }
+  .aside_text-sevices {
+    padding-top: 400px;
   }
 }
 @media (max-width: 500px) {
@@ -684,5 +698,12 @@ nav {
     font-size: 13px;
     font-weight: 300;
     line-height: 18px;
+  }
+  .aside_text-sevices {
+    padding-top: 200px;
+  }
+  .linkeden_icon svg {
+    fill: #757575;
+    margin: 0 0 0 0;
   }
 }

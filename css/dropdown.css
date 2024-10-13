@@ -1,6 +1,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 99999999999999;
 }
 
 .dropdown-content {
@@ -11,12 +12,13 @@
   border-radius: 15px;
   box-shadow: 5px 10px 18px 5px rgb(231, 178, 3);
   padding: 12px 16px;
-  z-index: 1;
+  z-index: 99999999999999;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 .dropdown-content_p {
+  z-index: 99999999999999;
   color: white;
 }
