@@ -1,0 +1,89 @@
+.dark header {
+  background-color: #050505;
+}
+.dark .nav-link:hover {
+  transition: 1s;
+  color: #f60404;
+}
+.dark .contact-btn:hover {
+  background-color: #fd0707;
+}
+.dark section {
+  background-color: #0fc71b;
+  height: 1150px;
+}
+.dark .section__text_brands {
+  color: #050505;
+}
+.dark .section__text_brands_paragraph {
+  color: #050505;
+}
+.dark .section__text-p {
+  background-color: #050505;
+}
+.dark .btn-link {
+  color: #050505;
+}
+.dark .section__box {
+  background-color: #f4edf2;
+}
+.dark .card-number {
+  color: #050505;
+}
+.dark .card-number__text {
+  color: #050505;
+}
+.dark .card-number__text {
+  color: #050505;
+}
+.dark .section__box-text {
+  color: #050505;
+}
+.dark .aside_text-sevices {
+  color: #0d0e0d;
+}
+.dark .aside_text-product {
+  color: #050505;
+}
+.dark .aside__card {
+  background-color: #050505;
+}
+.dark .aside_text-p {
+  color: white;
+}
+.dark .aside_text-h3 {
+  color: #0fc71b;
+}
+.dark .aside_text-my-portfolio {
+  color: #050505;
+}
+.dark .aside_text-portfolio-p {
+  color: #050505;
+}
+.dark .aside_text-portfolio-h2 {
+  color: #050505;
+}
+.dark .aside_text-portfolio-content-p {
+  color: #090909;
+}
+.dark .footer_about {
+  background-color: #0fc71b;
+}
+.dark .footer_about-text-p1 {
+  color: #050505;
+}
+.dark .footer_about-text-p2 {
+  color: #050505;
+}
+.dark .footer-name-people {
+  color: #050505;
+}
+.dark .footer_logo-text-p {
+  color: #050505;
+}
+.dark .menu_text-h3 {
+  color: #050505;
+}
+.dark .footeer-link a {
+  color: #050505;
+}

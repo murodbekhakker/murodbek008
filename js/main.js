@@ -1,7 +1,7 @@
 // loading
 const loading = document.getElementById("loading");
 
-const loadingDuration = 2000; // 2s
+const loadingDuration = 1800; // 1.8s
 
 setTimeout(() => {
   loading.classList.add("loading-none");

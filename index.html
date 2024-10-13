@@ -33,14 +33,24 @@
               <i class="fa-solid fa-bars hamburger" id="hamburger"></i>
             </div>
             <ul class="nav-menu" id="nav-mune">
-              <li class="nav-menu-item"><a href="#"></a>Home</li>
+              <li class="nav-link"><a href="#"></a>Home</li>
               <li class="nav-link"><a href="#"></a>About</li>
               <li class="nav-link"><a href="#"></a>Service</li>
               <li class="nav-link"><a href="#"></a>Portfolio</li>
               <li class="nav-link"><a href="#"></a>Blog</li>
             </ul>
-            <div class="contact-btn" id="nav-btn">
-              <a class="nav-btn_link" href="#"></a>Contact
+            <div class="nav-btn" id="nav-btn">
+              <div id="mode-btn">
+                <img
+                  src="./images/moon.svg"
+                  src="./images/sun.svg"
+                  alt="no img!
+                "
+                />
+              </div>
+              <div class="contact-btn">
+                <a class="nav-btn_link" href="#">Contact</a>
+              </div>
             </div>
           </nav>
         </div>
@@ -61,7 +71,17 @@
               </p>
               <div class="section__btn-link">
                 <a class="btn-link" href="#">Hire Me</a>
-                <a class="btn-link" href="#">My Work</a>
+                <div class="dropdown">
+                  <a class="btn-link" href="#">My Work</a>
+                  <div class="dropdown-content">
+                    <div class="dropdown-content_p">
+                      <p>DevOps</p>
+                      <p>Frontend</p>
+                      <p>REST API</p>
+                      <p>JSON</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="section__img-businessman">
@@ -356,7 +376,7 @@
                 mattis nunc aliquam tincidunt est non.
               </p>
               <div class="footer_icons">
-                <a class="facebook_icon" href="#">
+                <span class="facebook_icon" href="#">
                   <svg
                     width="30"
                     height="30"
@@ -375,8 +395,8 @@
                       </clipPath>
                     </defs>
                   </svg>
-                </a>
-                <a class="linkeden_icon" href="#">
+                </span>
+                <span class="linkeden_icon" href="#">
                   <svg
                     width="30"
                     height="25"
@@ -392,8 +412,8 @@
                       d="M3 5.16551C4.65685 5.16551 6 4.00917 6 2.58275C6 1.15634 4.65685 0 3 0C1.34315 0 0 1.15634 0 2.58275C0 4.00917 1.34315 5.16551 3 5.16551Z"
                     />
                   </svg>
-                </a>
-                <a class="instagram_icon" href="#">
+                </span>
+                <span class="instagram_icon" href="#">
                   <svg
                     width="29"
                     height="29"
@@ -420,8 +440,8 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                </a>
-                <a class="tiwitter_icon" href="#">
+                </span>
+                <span class="tiwitter_icon" href="#">
                   <svg
                     width="35"
                     height="25"
@@ -433,7 +453,7 @@
                       d="M35 0.0137502C33.4765 0.937397 31.7897 1.64384 30.0045 2.10587C29.0464 1.15896 27.773 0.487816 26.3566 0.183207C24.9403 -0.121403 23.4492 -0.0447805 22.0851 0.402711C20.7211 0.850203 19.5498 1.64697 18.7297 2.68526C17.9097 3.72355 17.4804 4.95325 17.5 6.20807V7.57546C14.7042 7.63777 11.9338 7.10482 9.4357 6.02408C6.93755 4.94333 4.78914 3.34834 3.18182 1.38115C3.18182 1.38115 -3.18182 13.6877 11.1364 19.1573C7.85993 21.0689 3.95684 22.0274 0 21.8921C14.3182 28.7291 31.8182 21.8921 31.8182 6.16704C31.8167 5.78616 31.7741 5.40622 31.6909 5.0321C33.3146 3.65581 34.4604 1.91814 35 0.0137502Z"
                     />
                   </svg>
-                </a>
+                </span>
               </div>
             </div>
             <div class="pages-and-services">

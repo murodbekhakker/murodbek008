@@ -7,10 +7,9 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(8, 96, 247);
+  background-color: rgb(10, 10, 10);
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 20px;
   border-radius: 4px;
 }
-

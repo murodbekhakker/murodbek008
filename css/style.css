@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 @import url(./loading.css);
 @import url(./bectop.css);
+@import url(./dark.mode.css);
+@import url(./dropdown.css);
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@
   scroll-behavior: smooth;
   z-index: 2;
 }
+
 .container {
   /* 1920-2*375+2*20=1130 */
   max-width: 1130px;
@@ -44,7 +47,7 @@ header {
   color: #a1b5bb;
   cursor: pointer;
 }
-.nav-menu-item:hover {
+.nav-link:hover {
   transition: 1s;
   color: #ffa63a;
 }
@@ -53,6 +56,15 @@ header {
 }
 nav {
   display: flex;
+}
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#mode-btn img {
+  margin-top: 35px;
 }
 .contact-btn {
   margin-left: auto;
@@ -77,6 +89,15 @@ nav {
 .heder_and_section_color {
   background-color: #063545;
   height: 1150px;
+}
+.navbar-shrink {
+  background: #063541;
+  padding: 30px 0;
+  transition: 0.5s;
+}
+
+.nav-btn_link {
+  color: white;
 }
 .section__text-p {
   margin-top: 150px;
@@ -551,7 +572,7 @@ nav {
     flex-direction: column;
     align-items: center;
   }
-  .contact-btn {
+  .nav-btn {
     margin-top: 30px !important;
     margin: 0 auto;
     display: none;
